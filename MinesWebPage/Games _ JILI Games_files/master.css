@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* Reset By Normalize */
+@import url(reset.css);
+@font-face {
+  font-family: BebasNeue;
+  src: url(../../fonts/BebasNeue-Regular.woff) format("woff"), url(../../fonts/BebasNeue-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(../../fonts/Poppins-Regular.otf) format("opentype");
+}
+
+:root {
+  --fontsize-pc-base: 18px;
+  --fontsize-m-base: 16px;
+}
+
+/* ================= 頁面框架設定 ================= */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Poppins,Helvetica,Tahoma,sans-serif, '微軟正黑體', Heiti TC, 'メイリオ';
+}
+
+html, body {
+  background: none;
+  line-height: 1.5em;
+  font-size: var(--fontsize-m-base);
+  -webkit-text-size-adjust: none;
+}
+
+@media only screen and (min-width: 812px) {
+  html, body {
+    font-size: var(--fontsize-pc-base);
+  }
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* ================= 活動主資訊 ================= */
+/* ================= image設定 ================= */
+.img-responsive {
+  max-width: 100%;
+}
+
+.img-border {
+  border: 3px solid #fff;
+}
+
+.img-radius {
+  border-radius: 15px;
+}
+
+.img-block {
+  display: block;
+  margin: 0 auto;
+}
+
+/* ================= text設定 ================= */
+.txt-center {
+  text-align: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-indent-3em {
+  display: block;
+  margin-left: 3em;
+  text-indent: -3em;
+}
+
+.txt-indent-4em {
+  display: block;
+  margin-left: 4em;
+  text-indent: -4em;
+}
+
+.txt-indent-5em {
+  display: block;
+  margin-left: 5em;
+  text-indent: -5em;
+}
+
+/* ================= 文字設定 ================= */
+.f-danger {
+  color: #ff5050;
+}
+
+.f-fun {
+  color: #f7f40a;
+}
+
+.f-primary {
+  color: #007bff;
+}
+
+.f-success {
+  color: #28a745;
+}
+
+.f-info {
+  color: #17a2b8;
+}
+
+.f-beauty {
+  color: #da199d;
+}
+
+.f-light {
+  color: #fff;
+}
+
+.f-wraning {
+  color: #ffc107;
+}
+
+.f-dark {
+  color: #000;
+}
+
+.f-secondary {
+  color: #868e96;
+}
+
+.f-bold {
+  font-weight: bold;
+}
+
+.f-lg {
+  font-size: 1.2em;
+}
+
+.f-sm {
+  font-size: .8em;
+}
